@@ -1,12 +1,23 @@
+
 const { Sequelize } = require('sequelize');
 const dotenv = require('dotenv');
+const path = require('path');
+
 dotenv.config();
 
-// Use SQLite instead of MySQL to avoid connection/password issues
+// Database file location
+// Render can use a persistent disk through DATABASE_PATH.
+const databasePath = process.env.DATABASE_PATH ||
+    path.resolve(__dirname, '..', 'database.sqlite');
+
+// SQLite database connection
 const sequelize = new Sequelize({
-  dialect: 'sqlite',
-  storage: './database.sqlite', // This will create a local file
-  logging: false
+    dialect: 'sqlite',
+    storage: databasePath,
+    logging: false,
+    dialectOptions: {
+        timeout: 30000
+    }
 });
 
 module.exports = { sequelize };
