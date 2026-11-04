@@ -1,51 +1,43 @@
 # 🏨 ROOMIFY – Hotel Booking Web Application
 
-ROOMIFY is a hotel booking web application designed to help users explore hotels, view room details, search for accommodation, and access booking-related features through a user-friendly interface.
+## 📌 About the Project
 
-## 🌐 Live Demo
+ROOMIFY is a hotel booking web application developed to provide users with a convenient platform to explore hotels, view room details, search for accommodation, and access booking-related features.
 
-**Website:** https://roomify-hotel-booking.netlify.app
+The project is designed with a user-friendly interface and a frontend-backend architecture.
 
-## 📌 Project Overview
+## ✨ Key Features
 
-ROOMIFY aims to simplify the hotel discovery and booking experience by providing an online platform where users can explore hotel information and room options.
-
-The project includes a React-based frontend and a Node.js and Express.js backend with database integration.
-
-## ✨ Features
-
-- User-friendly and responsive interface
-- Hotel listing and browsing
+- User-friendly hotel booking interface
+- Hotel listings and browsing
 - Hotel search functionality
-- Hotel and room information
+- Hotel and room details
 - User authentication APIs
-- Booking-related APIs
-- Database integration using Sequelize ORM
-
-*Note: Some features may require backend deployment and configuration before they work on the live website.*
+- Booking management APIs
+- Database integration
 
 ## 🛠️ Technologies Used
 
-### Frontend
+**Frontend**
 - React.js
 - Vite
 - JavaScript
 - HTML5
 - CSS3
 
-### Backend
+**Backend**
 - Node.js
 - Express.js
 - REST APIs
 
-### Database
+**Database**
 - SQLite
 - Sequelize ORM
 
-### Tools
-- Git and GitHub
+**Development Tools**
 - Visual Studio Code
-- Netlify
+- Git
+- GitHub
 
 ## 📂 Project Structure
 
@@ -63,7 +55,6 @@ ROOMIFY-Hotel-Booking/
 │   ├── models/
 │   ├── routes/
 │   ├── index.js
-│   ├── seed.js
 │   └── package.json
 │
 └── README.md
@@ -77,7 +68,7 @@ ROOMIFY-Hotel-Booking/
 git clone https://github.com/nitinkumarnavin/ROOMIFY-Hotel-Booking.git
 ```
 
-### 2. Navigate to the project folder
+### 2. Open the project folder
 
 ```bash
 cd ROOMIFY-Hotel-Booking
@@ -88,34 +79,28 @@ cd ROOMIFY-Hotel-Booking
 ```bash
 cd client
 npm install
-```
-
-### 4. Start the frontend
-
-```bash
 npm run dev
 ```
 
-### 5. Install backend dependencies
+### 4. Install backend dependencies
 
 Open another terminal:
 
 ```bash
 cd server
 npm install
-```
-
-### 6. Start the backend
-
-```bash
 npm start
 ```
 
-**Note:** Configure the required environment variables and database settings before starting the backend. The frontend API configuration may also need updating to point to your backend URL.
+**Note:** Configure the required environment variables and database settings before running the backend.
 
 ## 🎯 Project Objective
 
-The main objective of ROOMIFY is to develop a web-based hotel discovery and booking platform that provides users with an accessible way to explore accommodation options.
+The objective of ROOMIFY is to develop a web-based hotel booking platform that makes it easier for users to discover accommodation options and manage hotel booking-related activities.
+
+## 🚧 Project Status
+
+Currently under development. Frontend deployment and backend integration are being worked on.
 
 ## 👨‍💻 Developer
 
@@ -123,11 +108,7 @@ The main objective of ROOMIFY is to develop a web-based hotel discovery and book
 
 B.Tech – Computer Science and Engineering
 
-## 🔗 Project Links
+## 🔗 Repository
 
-- **Live Website:** https://roomify-hotel-booking.netlify.app
-- **GitHub Repository:** https://github.com/nitinkumarnavin/ROOMIFY-Hotel-Booking
+[ROOMIFY – GitHub Repository](https://github.com/nitinkumarnavin/ROOMIFY-Hotel-Booking)
 
----
-
-⭐ If you find this project interesting, feel free to explore the repository!
